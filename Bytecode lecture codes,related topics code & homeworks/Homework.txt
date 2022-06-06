@@ -1,0 +1,6 @@
+1) Make a calculator for addition, subtraction, multiplication and division.   done
+2) make a calculator for simple interest.                                      done
+3) make a calculator for square.                                               done
+4) ++a  +a++  +++a 
+5) make a program for predicting even and odd number.                          done
+6) Swapping a=1,b=2 ~ a=2,b=1                                                  done

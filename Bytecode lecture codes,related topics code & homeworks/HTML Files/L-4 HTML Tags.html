@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link href="./L-4 HTML Tags.css" rel="stylesheet">
+    </head>
+    <body>
+        <form action="./L-4 backend.php">
+            <h1>Registration form</h1><hr>
+            Name:<input type="text" placeholder="First name Middle name Last name " required><br><br>
+            password:<input type="password">
+            <label for="Gender">Gender:</label>
+            F.<input type="radio" id="Gender" name="Gender">
+            M.<input type="radio" id="Gender" name="Gender"><br><br>
+            Department:<input type="text"><br><br>
+            Branch:<select>
+                        <option label="C.S.E"></option>
+                        <option label="Civil"></option>
+                        <option label="E.E"></option>
+                        <option label="P.P.T"></option>
+                    </select><br><br>
+            Session:<input type="number" placeholder="20xx0020xx" maxlength="10"required><br><br>
+            Semster:<input type="number" placeholder="In integers" maxlength="1"required><br><br>
+            <label for="upload file">Upload PDF of admit card:</label>
+            <input type="file" name="upload file" id="upload file" accept=".pdf"><br><br>
+            P.H n.o.:<input type="number"placeholder="with area pin code" maxlength="13"required step="10"><br><br>
+            D.O.B.:<input type="date"><br><br>
+            Addres:<input type="text" placeholder="Off hostel"><br><br>
+            <label for="quiries">Any Quirier then feel free to contact us:</label><br>
+            <textarea id="quiries" cols="31" rows="5" placeholder="Quaries"></textarea>
+            <input type="submit"> 
+            <input type="reset">
+
+        </form>
+
+    </body>
+</html>
